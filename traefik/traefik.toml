@@ -13,7 +13,7 @@
   address = ":443"
 
 [certificatesResolvers.leresolver.acme]
-  email = "pjannuel@outlook.fr"
+  email = "ton adresse email"
   storage = "acme.json"
   [certificatesResolvers.leresolver.acme.httpChallenge]
     entryPoint = "web" 
